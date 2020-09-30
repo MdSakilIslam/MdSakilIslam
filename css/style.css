@@ -10,7 +10,11 @@ body{
 }
 
 .navbar-container{
+    top: 0;
     background-color: #262B37;
+    position: sticky;
+    z-index: 2;
+
 }
 
 .about-container{
@@ -23,6 +27,9 @@ body{
 .bg-redtype{
     background-color: #F8857F;
 }
+.bg-redtype:hover{
+    color: black!important;
+}
 .bg-redtype-color{
     color: #F8857F;
 }
@@ -34,4 +41,27 @@ body{
 }
 .project-container{
     background-color: #2BB3DD;
+}
+.form-container{
+    background-color: #474050;
+}
+.inner-form{
+    background-color: #585F73;
+}
+.footer{
+    background-color: #2BB3DD;
+}
+.circle-footer{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: white;
+    font-size: 40px;
+    text-align: center;
+    color: #2BB3DD;
+}
+.circle-footer:hover{
+
+    background-color: #474D5D;
 }
